@@ -9,13 +9,17 @@ li{
 img {
     vertical-align: middle;
 }
+body {
+    background: #fbf8f8;
+}
 /*头部样式*/
 
 /*logo*/
-.transparent{
+/*.transparent{
     width: 100%;
     height: 70px;
     border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
 }
 .sticky-wrapper{
     width: 1200px;
@@ -41,7 +45,7 @@ img {
     margin-top: 13px;
 }
 
-/*nav*/
+!*nav*!
 .collapse{
     display: inline-block;
     height: 42px;
@@ -91,7 +95,59 @@ img {
 #shanghu:hover{
     background-color: #e94840;
     color: #fff;
+}*/
+.sticky-wrapper, .navbar-header{
+    height: 70px;
 }
+.container{
+
+    width: 1200px;
+    height: 70px;
+}
+.collapse{
+    margin-top: 10px;
+}
+.navbar{
+    background-color: #fff;
+}
+.collapse .nav li a{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 16px;
+    color: #000000;
+}
+#position{
+    margin-right: 50px;
+}
+#position a i{
+    font-style: normal;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: none;
+}
+.navbar .nav > .active > a{
+    color: #e94840 !important;
+    background-color: #fff;
+}
+.shanghu{
+    background-color: #e94840;
+
+    /*width: 64px;*/
+    padding: 4px 6px !important;
+    border-radius: 4px;
+    margin: 11px 0 0 15px;
+    color: #ffffff !important;
+}
+#shanghu:hover{
+    background-color: #e94840;
+    color: #fff;
+}
+
 
 /*banner*/
 .carousel-example-generic{
@@ -157,7 +213,7 @@ img {
     background: #757881;
     height: 420px;
 }
-.banner-nav ul li:hover{
+.banner-nav ul > .navname:hover{
     background-color: #60646d;
 }
 .banner-nav .navname{
@@ -176,4 +232,275 @@ img {
     position: absolute;
     right: 35px;
     top: 15px;
+}
+/*二级子菜单*/
+.banner-nav .navname ul{
+    position: absolute;
+    top:0;
+    left: 180px;
+    margin-left: 0;
+    background: rgba(255,255,255,0.7);
+}
+.banner-nav .navname ul li{
+    height: 42px;
+    text-align: center;
+}
+.banner-nav .navname ul li a{
+    line-height: 42px;
+    color: #000;
+    text-decoration: none;
+}
+.banner-nav .navname ul li a:hover{
+    color: #e94840;
+}
+
+/*service*/
+
+.box1:nth-child(odd) {
+    background: #fff;
+}
+.box1 {
+    height: 560px;
+    width: 100%;
+}
+.fff {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    clear: both;
+}
+.navigation span {
+    display: block;
+    text-align: center;
+    font-family: "幼圆";
+}
+.navigation .serviceIndex {
+    height: 31px;
+    color: #3d3838;
+    font-weight: 800;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+}
+.navigation .serviceType {
+    font-size: 22px;
+    color: #3d3838;
+    height: 25px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.servicetags{
+    width: 1200px;
+}
+.servicetags .tagsListHeader:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.servicetags .lookMore{
+    float: right;
+}
+.servicetags .lookMore a{
+    text-decoration: none;
+    color: #898989;
+    font-size: 18px
+}
+.servicetags .lookMore a:hover{
+    color: #fb474f;
+}
+.row {
+    margin: 10px 0 0 0;
+    /*width: 1200px;*/
+}
+.ServiceBorder:hover {
+    box-shadow: 5px 5px 15px #ccc;
+}
+.ServiceBorder {
+    float: left;
+    padding: 10px;
+    width: 230px;
+    border: 1px solid #eaeaea;
+    margin: 0 5px;
+    background: #fff;
+    cursor: pointer;
+    height: 345px;
+}
+.shopList .serviceName {
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 800;
+    color: #000;
+    height: 28px;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shopList .description {
+    color: #929292;
+    padding: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    font-size: 13px;
+    line-height: 18px;
+    height: 58px;
+}
+.shopList .price {
+    font-size: 14px;
+    padding: 5px 5px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 20px;
+    color: #fb474f;
+}
+.shopList .price span:nth-child(1){
+    font-size: 20px
+}
+.shopList .price .btn{
+    display: inline-block;
+    border: 1px solid #fb474f;
+}
+.shopList .price .btn {
+    float: right;
+    padding: 0;
+    width: 76px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    background: #fb474f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/*footer*/
+.baozhang {
+    text-align: center;
+    width: 100%;
+    padding-top: 60px;
+    background: #fff;
+    clear: both;
+}
+.baozhang h2{
+    margin:20px 0 10px 0;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    font-weight: 800;
+    line-height: 1.1;
+}
+.baozhang i{
+    font-style: normal;
+    color: #fb474f;
+}
+.baozhang p{
+    margin: 0;
+    font-size: 22px;
+    color: #3d3838;
+}
+.servi{
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.servi ul{
+    width: 420px;
+    margin: 0 auto;
+}
+.servi ul:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.servi li{
+    float: left;
+    width: 140px;
+}
+.servi li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*footer*/
+#fooerstr{
+}
+.footer {
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+    height: 170px;
+    background: #fff;
+}
+.footer dl{
+    width: 1200px;
+    margin:0 auto;
+}
+.footer dl dt {
+    float: left;
+    font-family: " 微软雅黑";
+    font-size: 18px;
+}
+.footer dl dd {
+    margin-left: 30px;
+    width: 1090px;
+    line-height: 30px;
+    float: left;
+}
+.footer dl dd i {
+    font-style: normal;
+    font-size: 16px;
+    color: #898989;
+    display: inline-block;
+    width: 9%;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+
+.beian{
+    width: 1200px;
+    margin:0 auto;
+}
+#htit {
+    text-align: left;
+    font-weight: bold;
+    width: 1200px;
+    margin: 0 auto;
+    color: #1d1515;
+    font-size: 18px;
+    padding-top: 50px;
+}
+.beian .hezuo:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.beian .hezuo li{
+    float: left;
+    width: 120px;
+    height: 60px;
+    margin-top: 18px;
+    margin-left: 12px;
+    background-color: #fff;
+}
+.beian .hezuo li:nth-child(1),.beian .hezuo li:nth-child(10){
+    margin-left: 0;
+}
+.beian .hezuo li img{
+    width:100%;
+}
+.beianinfo{
+    width: 1200px;
+    height: 40px;
+    margin:0 auto;
+}
+.beianinfo p{
+    line-height: 40px;
+    color: #898989;
 }
