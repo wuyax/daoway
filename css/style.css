@@ -122,6 +122,9 @@ body {
 #position a i{
     font-style: normal;
 }
+#position #city:hover{
+    color: #e94840;
+}
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
@@ -133,6 +136,9 @@ body {
 .navbar .nav > .active > a{
     color: #e94840 !important;
     background-color: #fff;
+}
+.collapse .nav li a:hover{
+    color: #e94840;
 }
 .shanghu{
     background-color: #e94840;
@@ -504,3 +510,7 @@ body {
     line-height: 40px;
     color: #898989;
 }
+
+
+
+/*download App*/
