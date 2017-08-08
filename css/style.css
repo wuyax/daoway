@@ -722,8 +722,23 @@ body {
 .ulactivety li>img{
     width: 100%;
 }
+.ulactivety li p:nth-child(2){
+    margin-top: 15px;
+}
+.ulactivety li p img{
+    width: 18px;
+    margin-right: 6px;
+}
 .ulactivety li:hover{
     box-shadow: 5px 5px 15px #ccc;
+}
+.ulactivety .pp{
+    font-size: 12px;
+    color: #929292;
+}
+.ulactivety .pp i{
+    font-style: normal;
+    float: right;
 }
 /*load more*/
 .fenye{
