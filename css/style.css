@@ -775,3 +775,324 @@ body {
     padding: 50px;
     background: url("../img/tuijianfuwushang_06.jpg") center no-repeat;
 }
+
+
+/*information page*/
+.info-guide{
+    width:100%;
+    height: 300px;
+    background: url(../img/information.jpg) no-repeat center
+}
+.info-odd{
+    background-color: #fff;
+}
+.info-odd,.info-even{
+    width: 100%;
+    height: 300px;
+}
+.odd-center,.even-center{
+    width: 1200px;
+    margin:0 auto;
+}
+.odd-center ul:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.odd-center li{
+    float: left;
+}
+.odd-center li:nth-child(1){
+    width:30%;
+}
+.odd-center li:nth-child(2){
+    width:70%;
+}
+.odd-center img{
+    width: 166px;
+    height: 166px;
+    margin: 60px;
+}
+.odd-center div{
+    margin-top: 100px;
+}
+.odd-center div b{
+    font-size: 32px;
+    font-weight: 700;
+}
+.odd-center div p{
+    font-size: 22px;
+    margin: 25px 0 0 40px;
+}
+
+.even-center ul li{
+    float: left;
+}
+.even-center ul li:nth-child(1){
+    width:70%;
+}
+.even-center ul li:nth-child(2){
+    width:30%;
+}
+.even-center div{
+    margin: 100px 0 0 60px;
+}
+.even-center div b {
+    font-size: 32px;
+    font-weight: 700;
+}
+.even-center div p{
+    font-size: 22px;
+    margin: 25px 0 0 40px;
+}
+.even-center img{
+    width: 166px;
+    height: 166px;
+    margin: 60px;
+}
+
+
+
+/*表单部分*/
+.cooperationwrap{
+    width:100%;
+}
+.cooperation-container{
+    width: 660px;
+    margin:0 auto;
+    text-align: center;
+}
+.cooperation-container p{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+.cooperation-container p i{
+    font-style: normal;
+    color: #e62e36;
+}
+
+
+.checkbox{
+    display: inline-block;
+}
+
+.inlineinput{
+    display: inline-block;
+    width: 100px;
+}
+
+.checkboxstyle .checkbox{
+    text-align: left;
+    width:77px;
+    margin-right: 20px;
+}
+.chosemuti{
+    float: left;
+    margin-top: 7px;
+}
+.chosemuti:nth-last-child(1){
+    margin-left: 1px;
+}
+.form-group:nth-child(-n+6) > label:before{
+    content: '*';
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 16px;
+    color: #e62e36;
+}
+
+.shanghu-btn{
+    background-color: #e62e36;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.shanghu-btn:hover{
+    background-color: #e62e36;
+    color: #ffffff;
+}
+.cooperation-container .contactinfo{
+    color: #898989;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+
+/*aboutus页面*/
+.aboutbanner{
+    width:100%;
+    height: 240px;
+    background: url("../img/aboutbanner.jpg")center no-repeat;
+}
+.abouttxt{
+    width: 1200px;
+    padding: 0 20px;
+    border:1px solid #e5e5e5;
+    background-color: #fff;
+    margin: 26px auto;
+}
+.abouttxt h3{
+    border-bottom: 4px solid #e84b47;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    width: 96px;
+    text-align: center;
+}
+.abouttxt p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #929292;
+    line-height: 28px;
+    margin-bottom: 27px;
+    text-indent: 36px;
+}
+
+
+/*login page*/
+.login-wrap{
+    width: 100%;
+    height:auto;
+    background-color: #fff;
+}
+.login-wrap .container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.login-wrap .container .content{
+    width: 328px;
+    height: 300px;
+    padding: 15px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin: 200px auto 0;
+}
+
+.login-title{
+    display: inline-block;
+    width:100%;
+    height: 70px;
+    background: url("../img/houtai-logo.png") center no-repeat;
+    background-size: 290px;
+}
+.input-group input{
+    font-size: 14px !important;
+}
+.input-group:nth-child(1) input{
+    border-radius: 0 6px 0 0;
+}
+.input-group:nth-child(2) input{
+    border-radius: 0 0 6px 0;
+}
+.input-group:nth-child(1) span{
+    border-radius: 6px 0 0 0;
+}
+.input-group:nth-child(2) span{
+    border-radius: 0 0 0 6px;
+}
+.form-wrap{
+    margin-bottom: 15px;
+}
+/*这行代码是为了解决图标和输入框没有对齐的*/
+.input-group span{
+    top: 0;
+}
+
+.login-btn{
+    width: 100%;
+}
+.forget-pw{
+    width: 90%;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.forget-pw a{
+    color: #333;
+}
+.forget-pw a:hover {
+    color: #666666;
+}
+.forget-pw a:nth-child(2){
+    float: right;
+}
+
+/*regist注册页面*/
+.regist-wrap{
+    width: 100%;
+    height:auto;
+    background-color: #fff;
+}
+.regist-wrap .container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.regist-wrap .container .content{
+    width: 328px;
+    /*height: 300px;*/
+    padding: 15px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin: 100px auto 0;
+}
+
+.regist-title{
+    display: inline-block;
+    width:100%;
+    height: 70px;
+    background: url("../img/houtai-logo.png") center no-repeat;
+    background-size: 290px;
+}
+.verification{
+    height: 92px;
+    margin-top: 15px;
+}
+.verification i{
+    display: inline-block;
+    height: 46px;
+    width: 206px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 6px 0 0 0;
+}
+.verification input{
+    width: 206px;
+    float: left;
+    font-size: 14px;
+    border-radius: 0 0 0 6px;
+}
+.regist-btn{
+    float: right;
+    width: 90px;
+    height: 92px;
+    outline: none;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0 6px 6px 0;
+}
+.regist-ver,.regist-pw, .regist-pho{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.regist-check {
+    margin: 0 0 20px !important;
+}
+.regist-check a, .regist-login a{
+    color: #333
+}
+.regist-check a:hover,.regist-login a:hover {
+    color: #666;
+}
+
+.regist-login{
+    padding: 20px;
+    text-align: center;
+}
