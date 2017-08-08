@@ -514,3 +514,170 @@ body {
 
 
 /*download App*/
+.download {
+    width: 100%;
+    height: 420px;
+    background: url(../img/xiazaiye-_02.jpg) no-repeat center;
+    margin: 0 auto;
+}
+.xiazai {
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+    /*padding-top: 204px;
+    padding-right: 340px;*/
+}
+.download-warp{
+    margin-left: 46%;
+    padding-top: 200px;
+}
+.xiazai .qrcode{
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+}
+.xiazai .iph,.and{
+    width: 188px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+}
+.iph{
+    background-color: #e62e36;
+}
+.and{
+    background-color: #a0c842;
+    margin-top: 15px;
+}
+.xiazai .phoneapp{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.xiazai .phoneapp a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.xiazai .phoneapp img{
+    margin-right: 20px;
+}
+.xiazai .phoneapp a{
+    margin-left: 20px;
+}
+
+
+/*第二部分*/
+/*service type*/
+.serv-type{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.downloadbox{
+    width: 1200px;
+    margin:0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+.downloadbox > img{
+    width: 242px;
+    text-align: center;
+}
+.downloadbox p{
+    font-size: 22px;
+    margin: 10px 0 33px 0;
+    color: #3d3838
+}
+
+.downloadbox .listimg{
+    padding-top: 20px;
+}
+.downloadbox .listimg:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.downloadbox .listimg li{
+    width: 32.5%;
+    height: 216px;
+    border: 1px solid #eaeaea;
+    padding-top: 20px;
+    margin:10px 10px 0 0;
+    float: left;
+}
+.downloadbox .listimg li img{
+    width: 168px;
+    margin-left: 38px;
+    vertical-align: top;
+}
+.downloadbox .listimg li span{
+    display: inline-block;
+    margin-top: 55px;
+}
+.listimg li span i{
+    font-style: normal;
+    text-align: left;
+}
+.listimg li span i:nth-child(1){
+    display: block;
+    font-size: 20px;
+}
+.listimg li span i:nth-child(2){
+    display: block;
+    margin-top: 10px;
+}
+
+/*第三部分*/
+
+.bggrey{
+    width: 100%;
+}
+.dcenter{
+    width: 1200px;
+    margin:0 auto;
+}
+.dcenter ul:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.dcenter ul li{
+    float: left;
+    width:50%;
+    text-align: center;
+}
+.dcenter ul li:nth-child(1){
+    padding: 200px 100px;
+    font-size: 22px;
+}
+.dcenter ul li:nth-child(1) p{
+    margin-top: 10px;
+}
+.dcenter ul li:nth-child(2){
+    margin-top: 55px;
+}
+
+/*第四部分*/
+
+.pingtai{
+    width: 100%;
+    background-color: #fff;
+}
+/* 和上面的复用了
+.dcenter{
+    width: 1200px;
+    margin:0 auto;
+}*/
+.pingtai .dcenter ul li:nth-child(1){
+    padding:50px 100px;
+}
+.pingtai .dcenter ul li:nth-child(2){
+    padding:130px 100px;
+    font-size: 22px;
+    margin-left: -120px;
+}
+.dcenter ul li:nth-child(2) p{
+    margin-top: 10px;
+}
