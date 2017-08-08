@@ -681,3 +681,82 @@ body {
 .dcenter ul li:nth-child(2) p{
     margin-top: 10px;
 }
+
+
+/*服务商页面*/
+/*service-center*/
+.service-center{
+    width:100%;
+}
+.servicewrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.centerleft{
+    width: 970px;
+    float: left;
+}
+.service-title {
+    line-height: 85px;
+    font-size: 18px;
+    font-weight: bold;
+    margin:0;
+}
+.ulactivety{
+    content: '';
+    display: table;
+    clear: both;
+}
+.ulactivety li{
+    width: 232px;
+    height: 300px;
+    border: 1px solid #eaeaea;
+    float: left;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+.ulactivety li>img{
+    width: 100%;
+}
+.ulactivety li:hover{
+    box-shadow: 5px 5px 15px #ccc;
+}
+/*load more*/
+.fenye{
+    width: 100%;
+    height: 152px;
+    text-align: center;
+    line-height: 152px;
+}
+.fenye span{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #b1b1b1;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+}
+.fenye span:hover{
+    color: #e62e36;
+}
+
+.centerright{
+    float: right;
+    margin-top: 85px;
+}
+.erweima{
+    width: 100%;
+    height: 290px;
+    margin-top: 10px;
+    padding: 50px;
+    background: url("../img/tuijianfuwushang_06.jpg") center no-repeat;
+}
