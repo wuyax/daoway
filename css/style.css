@@ -2,6 +2,9 @@
 li{
     list-style: none;
 }
+.container{
+    width: 1200px !important;
+}
 * {
     margin:0;
     padding:0;
@@ -693,7 +696,7 @@ body {
     margin: 0 auto;
 }
 .centerleft{
-    width: 970px;
+    width: 960px;
     float: left;
 }
 .service-title {
@@ -1495,4 +1498,300 @@ body {
     color: #929292 !important;
     background-color: #fff !important;
     cursor: auto !important;
+}
+
+
+/*detail 服务详情页*/
+/*第一部分*/
+.detial .fuwu-left{
+    background-color: transparent;
+    border:none;
+}
+.dtop {
+    height: 220px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.dtop>img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #e5e5e5;
+    margin: 30px;
+    vertical-align: top;
+}
+.dtop .spm{
+    display: inline-block;
+    margin-top: 30px;
+}
+.dtop .spm i{
+    display: block;
+    line-height: 42px;
+    height: 42px;
+    font-style: normal;
+}
+.dtop .spm i:nth-child(1){
+    font-size: 18px;
+    color: #1d1515;
+}
+.dtop .spm i:nth-child(2) b{
+    font-size: 20px;
+    color: #fc545e;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.dtop .spm i:nth-child(2) b em{
+    font-style: normal;
+    font-size: 14px;
+}
+.dtop .spm i:nth-child(3) em{
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.dtop .spm i:nth-child(4) em{
+    font-size: 14px;
+    color: #fc545e;
+    margin-left: 10px;
+    font-style: normal;
+}
+/*二维码*/
+.dtop .spf{
+    display: inline-block;
+    float: right;
+    width: 115px;
+    margin: 30px 60px;
+}
+.dtop .spf img{
+    width: 115px;
+    height: 115px;
+}
+.dtop .spf b{
+    display: block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;font-size: 16px;
+}
+.dtop .spf b:nth-child(3){
+    color: #fb474f;
+}
+/*描述页面*/
+.cdown {
+    margin-top: 10px;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.cdown b{
+    display: inline-block;
+    border-bottom: 4px solid #fb474f;
+    height: 30px;
+    line-height: 30px;
+}
+.cdown p{
+    line-height: 1.5;
+}
+
+/*右边栏样式表*/
+.detial .fuwu-right{
+    background-color: transparent;
+    border: none;
+}
+.fuwu-qr{
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.fuwu-qr img{
+    width: 80px;
+    height: 80px;
+    margin: 40px 50px 10px;
+}
+.fuwu-qr p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    padding:0 10px;
+    margin-bottom: 20px;
+}
+.fuwu-qr p:nth-child(n+3){
+    text-align: left;
+    padding: 0 20px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.fuwu-qr p:nth-child(n+3) i{
+    float: right;
+    font-style: normal;
+    color: #fb474f;
+}
+
+/*评价页面*/
+.htit{
+    margin: 10px auto 0;
+    background: #fff;
+}
+.htit-center {
+    height: 140px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.htit-left {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 120px;
+    line-height: 140px;
+}
+.htit-left b{
+    font-size: 36px;
+    font-weight: 700;
+}
+.htit-left i {
+    margin-left: 10px;
+    color: #929292;
+    font-style: normal;
+}
+.htit-left i em{
+    color: #121212;
+    font-style: normal;
+}
+.htit-left i:nth-child(3) em{
+    color: #e84b47;
+}
+.htit-right{
+    float: right;
+    height: 120px;
+    margin-top: 15px;
+}
+.htit-right ul{
+    margin-top: 50px;
+}
+.htit-right ul li{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 44px;
+    text-align: center;
+}
+.htit-right li i {
+    display: block;
+    color: #e84b47;
+    font-style: normal;
+}
+.htit-right li em {
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+    right: -23px;
+    color: #e5e5e5;
+}
+
+.navtit {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #323434;
+}
+.navtit ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+.navtit ul li{
+    float: left;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.navtit ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navtit ul li.slibingsclor {
+    background: #424242;
+}
+
+.content{
+    width: 1200px;
+    margin:0 auto;
+}
+.content h3{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 0 3%;
+}
+.content h3 i{
+    display: inline-block;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 44px;
+    color: #121212;
+}
+.content h3 .activity {
+    border-bottom: 4px solid #fb474f;
+}
+.company{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 10px 25px;
+}
+.profile{
+    line-height: 28px;
+    color: #929292;
+    margin: 10px 25px 25px;
+    font-size: 16px;
+}
+.paihang em {
+    color: #121212;
+    margin-left: 15px;
+    font-style: normal;
+    font-size: 14px;
+}
+.conmentss{
+    width: 96%;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 3%;
+    padding-top: 20px;
+}
+.conmentss .touxiang{
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+}
+.conmentss ul {
+    display: inline-block;
+    margin:0 0 0 20px;
+    width: 92%;
+}
+.conmentss ul li {
+    border: none;
+    width: auto;
+    height: auto;
+    display: block;
+    float: none;
+    padding: 0;
+    line-height: 28px;
+    margin: 0;
+}
+.conmentss ul li:nth-child(2) em{
+    font-style: normal;
+    margin-left: 10px;
+}
+.conmentss .commentposition{
+    height: 40px;
+    color: #898989;
+}
+/*右侧部分*/
+.centerright{
+    width: 230px;
+    float: right;
+}
+.erweima2{
+    margin-top: 0px;
 }
