@@ -8,14 +8,16 @@
 	<!--<link rel="shortcut icon" href="http://www.daoway.cn/img/favicon.png">-->
 	<link href="./css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
-	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<script src="./js/jQuery.js"></script>
 
 	<!--banner效果引入的-->
 	<script src="./js/index.js"></script>
 	<script src="js/slide.js"></script>
 	</head>
 
-<body data-spy="scroll" data-target="#main-menu" style="overflow-x: hidden;">
+<body>
 <!--header-->
 <header id="header" class="transparent">
 	<div class="sticky-wrapper">
@@ -87,15 +89,11 @@
 			</div>
 		</div>
 		<div class="banner-nav">
-			<div style="width: 180px; position: absolute; top: 0; left: 100px;">
-				<ul>
-					<li class="navname" style="position: relative">
-						<a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=20" target="_blank"></a>
+			<ul>
+					<li class="navname navlist">
+						<a href="/fuwu?category=20" target="_blank"></a>
 						<i>家庭保洁</i>
-						<img src="img/right.png" width="6" height="11">
-
-						<ul style="top: 0px; display: block;">
-
+						<ul class="navhid">
 							<li><a href="/fuwu?category=20&amp;CName=%E5%B0%8F%E6%97%B6%E5%B7%A5" target="_blank">小时工</a></li>
 
 							<li><a href="/fuwu?category=20&amp;CName=%E5%BC%80%E8%8D%92%E4%BF%9D%E6%B4%81" target="_blank">开荒保洁</a></li>
@@ -111,10 +109,10 @@
 						</ul>
 
 					</li>
-					<li class="navname" style="position: relative">
-						<a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=22" target="_blank"></a>
-						<i>上门按摩</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -42px; display: none;">
+					<li class="navname navlist">
+						<a href="/fuwu?category=22" target="_blank"></a>
+						<i>上门按摩</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=22&amp;CName=%E4%B8%AD%E5%8C%BB%E6%8E%A8%E6%8B%BF" target="_blank">中医推拿</a></li>
 
@@ -130,8 +128,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=36" target="_blank"></a><i>上门维修</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -84px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=36" target="_blank"></a><i>上门维修</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=36&amp;CName=%E6%89%8B%E6%9C%BA%E7%BB%B4%E4%BF%AE" target="_blank">手机维修</a></li>
 
@@ -151,8 +149,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=21" target="_blank"></a><i>家电清洗</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -126px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=21" target="_blank"></a><i>家电清洗</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=21&amp;CName=%E7%A9%BA%E8%B0%83%E6%B8%85%E6%B4%97" target="_blank">空调清洗</a></li>
 
@@ -172,8 +170,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=26" target="_blank"></a><i>衣物洗护</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -168px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=26" target="_blank"></a><i>衣物洗护</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=26&amp;CName=%E6%B4%97%E8%A1%A3" target="_blank">洗衣</a></li>
 
@@ -187,8 +185,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=35" target="_blank"></a><i>搬家速运</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -210px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=35" target="_blank"></a><i>搬家速运</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=35&amp;CName=%E6%90%AC%E5%AE%B6%E7%A7%9F%E8%BD%A6" target="_blank">搬家租车</a></li>
 
@@ -200,8 +198,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=110" target="_blank"></a><i>美容美妆</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -252px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=110" target="_blank"></a><i>美容美妆</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=110&amp;CName=%E5%8C%96%E5%A6%86" target="_blank">化妆</a></li>
 
@@ -217,8 +215,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=50" target="_blank"></a><i>鲜花绿植</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -294px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=50" target="_blank"></a><i>鲜花绿植</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=50&amp;CName=%E5%8C%85%E6%9C%88%E9%B2%9C%E8%8A%B1" target="_blank">包月鲜花</a></li>
 
@@ -228,8 +226,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=120" target="_blank"></a><i>上门医护</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -336px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=120" target="_blank"></a><i>上门医护</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=120&amp;CName=%E6%8A%A4%E5%A3%AB%E4%B8%8A%E9%97%A8" target="_blank">护士上门</a></li>
 
@@ -241,8 +239,8 @@
 
 					</ul>
 
-				</li><li class="navname" style="position: relative"><a style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0" href="/fuwu?category=60" target="_blank"></a><i>养车用车</i><img src="img/right.png" width="6" height="11" class="">
-					<ul style="top: -378px; display: none;">
+				</li><li class="navname navlist"><a href="/fuwu?category=60" target="_blank"></a><i>养车用车</i>
+					<ul class="navhid">
 
 						<li><a href="/fuwu?category=60&amp;CName=%E4%B8%8A%E9%97%A8%E5%85%BB%E8%BD%A6" target="_blank">上门养车</a></li>
 
@@ -257,8 +255,7 @@
 					</ul>
 
 				</li>
-				</ul>
-			</div>
+			</ul>
 		</div>
 	</div>
 </div>
