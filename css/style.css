@@ -99,7 +99,7 @@ body {
 .sticky-wrapper, .navbar-header{
     height: 70px;
 }
-.container{
+.sticky-wrapper .container{
 
     width: 1200px;
     height: 70px;
@@ -764,7 +764,7 @@ body {
     color: #e62e36;
 }
 
-.centerright{
+.servicewrap .centerright{
     float: right;
     margin-top: 85px;
 }
@@ -1077,7 +1077,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 0 6px 6px 0;
 }
-.regist-ver,.regist-pw, .regist-pho{
+.regist-ver, .regist-pw, .regist-pho{
     margin-top: 15px;
     font-size: 14px;
 }
@@ -1095,4 +1095,404 @@ body {
 .regist-login{
     padding: 20px;
     text-align: center;
+}
+
+/*position page*/
+
+.poitioncity{
+    width:100%;
+}
+.poitioncity ul li{
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 1%;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.poitioncity h3{
+    color: #929292;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fixedheader{
+    /*width: 1200px;*/
+    height: 265px;
+    background: #fff;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    top: 71px;
+    right: 0;
+    bottom: 0;
+}
+.hotcity, .quicklycity{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hotcity:nth-child(2){
+    margin-top: 300px;
+}
+.hotcity .ht li{
+    float: left;
+    height: 40px;
+    padding:0 12px;
+}
+.hotcity ul{
+    background-color: #f8f8f8;
+}
+.quicklycity ul li.fist {
+    padding: 0 10px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    background: #fb474f;
+    color: #fff;
+}
+.quicklycity ul li {
+    line-height: 40px;
+    width: 3%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0.5%;
+}
+
+/*服务分类页面*/
+.classify{
+    width: 1200px;
+    height: 85px;
+    line-height: 85px;
+    margin:0 auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+.classify i{
+    font-style: normal;
+}
+.classify .bright{
+    display: inline-block;
+    margin:0 10px;
+}
+.classify .cnav{
+    color: #fb474f;
+}
+
+.navcenter{
+    width: 1200px;
+    margin:0 auto;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+}
+.navcenter .list1 .first{
+    color: #a9a9a9;
+    display: inline-block;
+    width: 100px;
+    padding: 0 10px;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+.navcenter div span {
+    font-size: 16px;
+    padding: 0 10px;
+    float: left;
+    cursor: pointer;
+}
+.list1 div{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.list1 .clickAble:hover{
+    color: #fb474f;
+}
+.list1 .on{
+    color: #fb474f;
+}
+.classify-list{
+    padding: 0px;
+    width: 1200px;
+}
+
+/*fuwu 左侧页面*/
+.fuwu-left{
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 0px;
+}
+    /*筛选条*/
+.fuwu-left .select{
+    height: 60px;
+    position: relative;
+}
+.select ul li{
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 8px 20px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.select ul li:hover{
+    color: #fb474f;
+}
+.select ul li:nth-child(n+2):after{
+    width: 20px;
+    height: 10px;
+    content: '';
+    display: table;
+    float: right;
+    margin-top: 15px;
+    background: url("../img/fuwu_down2.jpg") center no-repeat;
+}
+.select span{
+    float: left;
+}
+.select .select-li{
+    border-bottom: 4px solid #fb474f;
+    color: #fb474f;
+}
+.select .select-page-ctr{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    text-align: center;
+}
+.select .select-page-ctr span:nth-child(1){
+    color: #fb474f;
+}
+.select .select-page-ctr span:nth-child(-n+2){
+    line-height: 60px;
+}
+.select .select-page-ctr .prv-page,.select .select-page-ctr .next-page{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    margin: 14px 10px 0;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    vertical-align: top;
+}
+.select .select-page-ctr .prv-page:hover,.select .select-page-ctr .next-page:hover{
+    cursor: pointer;
+    background-color: #fe454a;
+    color: #ffffff;
+}
+    /*item 列表样式*/
+.ctop{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ctop:hover{
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.ctop>img{
+    width: 140px;
+    border: 1px solid #eaeaea;
+    margin: 30px;
+}
+.ctop .spm{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ctop .spm i {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+    font-style: normal;
+    width: 100%;
+}
+.ctop .spm i:nth-child(1){
+    font-size: 18px;
+    color: #1d1515;
+    font-weight: bold;
+}
+.ctop .spm i:nth-child(2){
+    font-size: 14px;
+    color: #929292;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ctop .spm i:nth-child(3){
+    font-size: 20px;
+    color: #fb474f;
+    font-weight: bold;
+}
+.ctop .spm i:nth-child(3) em{
+    font-size: 14px;
+    font-style: normal !important;
+}
+.ctop .spm .oldpic{
+    margin-left: 40px;
+    color: #898989;;
+}
+.ctop .spm .oldpic em{
+    text-decoration: line-through;
+}
+.ctop .navtxt img{
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.ctop .navtxt b{
+    line-height: 17px;
+    font-weight: normal;
+    color: #929292;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.ctop .navtxt b em{
+    font-style: normal;
+}
+.ctop .spf{
+    float: right;
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin: 30px 30px 0 0;
+    border-radius: 6px;
+    border: 1px solid #ff7871;
+    font-size: 12px;
+    text-align: center;
+}
+.ctop .spf i:nth-child(1){
+    display: block;
+    height: 14px;
+    border-bottom: 1px solid #ff7871;
+    background-color: #ff7871;
+    font-style: normal;
+    color: #ffffff;
+}
+.ctop .spf i:nth-child(2){
+    font-style: normal;
+    color: #ff7871;
+}
+
+
+/*右侧列表*/
+.fuwu-right{
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    margin-left: 10px;
+    padding: 0;
+    width: 290px;
+}
+.fuwu-right .fuwishang{
+    width:100%;
+    height: 200px;
+}
+.fuwu-right .fuwishang:hover{
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+/*解决外边距重叠的问题*/
+.fuwu-right .fuwishang:before{
+    content: '';
+    display: table;
+    clear: both;
+}
+.fuwu-right .rightct h3{
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.fuwu-right .fuwishang img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin:30px auto 10px;
+}
+.fuwishang p:nth-child(2){
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+}
+.fuwishang .pline{
+    border-bottom: 1px solid #e5e5e5;
+    width: 90%;
+    margin: 0 auto;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-style: normal;
+    font-size: 14px;
+    color: #929292;
+}
+.fuwishang .pline em{
+    font-style: normal;
+    font-size: 14px;
+    color: #929292;
+}
+.fuwishang .pline em:nth-child(1){
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/*底部分页栏样式*/
+.fenye2{
+    display: block;
+    width: 1200px;
+    padding-right: 300px;
+    height: 152px;
+    margin: 0 auto;
+    text-align: center;
+}
+.fenye2 a{
+    text-decoration: none;
+    color: #000;
+}
+.fenye2 .pageup, .pagedown{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin: 50px 5px;
+}
+.fenye2 #showPage{
+    display: inline-block;
+    height: 30px;
+}
+.fenye2 div a{
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin: 50px 5px;
+}
+.fenye2 div .fy-active{
+    background-color: #fe454a;
+    color: #ffffff;
+}
+.fenye2 .pageup:hover, .pagedown:hover, .fenye2 a.num:hover {
+    background: #fe454a;
+    color: #fff;
+    cursor: pointer;
+}
+.greycolor{
+    color: #929292 !important;
+}
+.greycolor:hover{
+    color: #929292 !important;
+    background-color: #fff !important;
+    cursor: auto !important;
 }
